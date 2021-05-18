@@ -7,7 +7,6 @@ public class LFSR {
         int sum = 0;
         for (int j = 0; j < n; j++) {
             //System.out.println(seed);
-            // Dodanie jedynek
             for (int i = 0; i < func.length(); i++) {
                 if (func.charAt(i) == '1') {
                     sum += Character.getNumericValue(seed.charAt(i));

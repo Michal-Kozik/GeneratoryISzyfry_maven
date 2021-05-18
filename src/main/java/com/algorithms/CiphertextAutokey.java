@@ -7,7 +7,6 @@ public class CiphertextAutokey {
         int sum = 0;
         for (int j = 0; j < sequence.length(); j++) {
             //System.out.println(seed);
-            // Dodanie wartosci z jedynkami
             for (int i = 0; i < func.length(); i++) {
                 if (func.charAt(i) == '1') {
                     sum += Character.getNumericValue(seed.charAt(i));
@@ -27,7 +26,6 @@ public class CiphertextAutokey {
         int sum = 0;
         for (int j = 0; j < sequence.length(); j++) {
             //System.out.println(seed);
-            // Dodanie wartosci z jedynkami
             for (int i = 0; i < func.length(); i++) {
                 if (func.charAt(i) == '1') {
                     sum += Character.getNumericValue(seed.charAt(i));
